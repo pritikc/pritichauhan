@@ -1,3 +1,3 @@
 # pritichauhan
 
-<a href="https://pritikc.github.io/pritichauhan/"></a>
+<a href="https://pritikc.github.io/pritichauhan/">Portfolio</a>
