@@ -54,15 +54,15 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Plus Jakarta Sans";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  /* --bs-font-sans-serif: "Plus Jakarta Sans"; */
+  /* --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace; */
   --bs-gradient: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
   );
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  /* --bs-body-font-family: var(--bs-font-sans-serif); */
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -95,8 +95,11 @@
     scroll-behavior: smooth;
   }
 }
-
 body {
+  font-family: "Inconsolata", monospace;
+  color: #0d1e2d;
+}
+/* body {
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -107,7 +110,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+} */
 
 hr {
   margin: 1rem 0;
@@ -2916,8 +2919,8 @@ textarea.form-control.is-invalid {
   }
 }
 .btn:hover {
-  color: var(--bs-btn-hover-color);
-  background-color: var(--bs-btn-hover-bg);
+  /* color: var(--bs-btn-hover-color);
+  background-color: var(--bs-btn-hover-bg); */
   border-color: var(--bs-btn-hover-border-color);
 }
 .btn-check + .btn:hover {
@@ -11890,14 +11893,14 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
+  background: #134470;
+  /* background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%); */
   /* background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%); */
-  background: #1e30f3;
-  background: linear-gradient(135deg, #00d170 0%, #1e30f3 100%);
+  background: linear-gradient(135deg, #141b64 0%, #1e30f3 100%); */
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(135deg, #00d170 0%, #1e30f3 100%);
+  background: -webkit-linear-gradient(135deg, #141b64 0%, #a6a6ac 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -12050,7 +12053,7 @@ html {
     width: 35vw;
   }
   .profile .profile-img {
-    height: 40vw;
+    height: 30vw;
   }
   .profile .dots-1 {
     width: 1.5vw;

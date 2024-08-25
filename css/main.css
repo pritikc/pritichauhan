@@ -14,23 +14,38 @@ body main nav {
   color: #ffffff;
 }
 /* relox project */
-
-.relox_bg {
+.text_color {
+  color: #134470;
+}
+.navbar .container .navbar-brand span {
+  font-size: 30px;
+}
+/* .relox_bg {
   background: rgb(183, 252, 222);
   background: linear-gradient(
     23deg,
     rgb(103, 184, 149) 61%,
     rgba(13, 162, 99, 1) 100%
   );
+} */
+.btn_text {
+  background: #ffffff;
+  color: #134470;
 }
-
+.btn_text i {
+  background: #ffffff;
+  color: #134470;
+}
+.project .project_btn a {
+  background-color: #002c52;
+}
 .relox_bg1 {
   background-image: linear-gradient(
     to bottom,
-    #119e56,
-    #1ab99f,
-    #6ecfd5,
-    #bbe2f1,
+    #134470,
+    #1f64a1,
+    #5888b2,
+    rgb(146, 195, 216),
     #f8f9fa
   );
 }
@@ -51,6 +66,7 @@ body main nav {
   background-image: linear-gradient(60deg, #088750, #28d12b);
   background-clip: text;
   color: transparent;
+  font-size: 20px;
 }
 .hero-content h1 {
   font-size: 40px;
@@ -144,15 +160,8 @@ body main nav {
 /* ----HMS---  */
 
 /* ----HMS---  */
-.hms_bg {
-  /* background-image: radial-gradient(
-    circle,
-    #0f7f7e,
-    #34906c,
-    #6d9c50,
-    #aca038,
-    #f09a42
-  ); */
+/* .hms_bg {
+
 
   background-image: linear-gradient(
     to right bottom,
@@ -169,7 +178,7 @@ body main nav {
     #b4dfe2,
     #dfedf0
   );
-}
+} */
 
 .hms_bg1 {
   background-image: linear-gradient(
@@ -189,20 +198,20 @@ body main nav {
   );
 }
 .hms_txt {
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
     circle,
     #0f7f7e,
     #34906c,
     #6d9c50,
     #aca038,
     #f09a42
-  );
-
+  ); */
+  background-color: #134470;
   background-clip: text;
   color: transparent;
 }
 /* vg pharma */
-.vg_bg {
+/* .vg_bg {
   background-image: linear-gradient(
     to left bottom,
     #1482c5,
@@ -211,7 +220,7 @@ body main nav {
     #00ae6f,
     #79af35
   );
-}
+} */
 .vg_bg1 {
   background-image: linear-gradient(
     to bottom,
@@ -273,4 +282,14 @@ h5 {
   background-image: linear-gradient(60deg, #088750, #28d12b);
   background-clip: text;
   color: transparent;
+}
+
+header .ex_btn .btn_explore {
+  border-radius: 50px;
+  color: #134470;
+  border: 1px solid #134470;
+  color: #134470;
+}
+.bottom_text {
+  font-size: 12px;
 }
