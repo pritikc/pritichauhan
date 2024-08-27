@@ -20,14 +20,15 @@ body main nav {
 .navbar .container .navbar-brand span {
   font-size: 30px;
 }
-/* .relox_bg {
-  background: rgb(183, 252, 222);
+.relox_bg {
+  /* background: rgb(183, 252, 222);
   background: linear-gradient(
     23deg,
     rgb(103, 184, 149) 61%,
     rgba(13, 162, 99, 1) 100%
-  );
-} */
+  ); */
+  margin-top: -25px;
+}
 .btn_text {
   background: #ffffff;
   color: #134470;
